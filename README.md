@@ -1,5 +1,7 @@
 # Frontend — panel AgroShield
 
+[![CI](https://github.com/Zatrynox/agroshield-frontend/actions/workflows/ci.yml/badge.svg)](https://github.com/Zatrynox/agroshield-frontend/actions/workflows/ci.yml)
+
 Aplicación Vue 3 del panel operativo. Consume la API `/v1` por el mismo origen (`/api/v1`), mantiene la sesión con cookie HttpOnly y usa el token CSRF que devuelve el backend.
 
 > **Repositorio independiente.** Este código se extrae del monorepo [`Zatrynox/agroshield`](https://github.com/Zatrynox/agroshield), que sigue siendo la fuente de verdad. Incluye `packages/design-tokens` para que el panel compile por separado. La API vive en [`agroshield-backend`](https://github.com/Zatrynox/agroshield-backend) y el sitio público en [`agroshield-landing`](https://github.com/Zatrynox/agroshield-landing).
